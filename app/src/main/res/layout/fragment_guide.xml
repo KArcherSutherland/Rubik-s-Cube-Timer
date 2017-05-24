@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="edu.vcu.quickgen.fragments.NotationGuideFragment"
+    android:id="@+id/guideFragment">
+
+    <ScrollView android:id="@+id/textGuideScroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_x="0dp"
+        android:layout_y="25dp"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/guide_text"
+            android:id="@+id/textGuide"
+            />
+    </ScrollView>
+</FrameLayout>

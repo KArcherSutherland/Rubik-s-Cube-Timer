@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">QuickGen</string>
+    <string name="action_settings">Settings</string>
+    <string name="scramble">Scramble!</string>
+    <string name="timerVal">00:00.00</string>
+    <string name="dnf">DNF</string>
+    <string name="holdToInspect">Hold to inspect</string>
+    <string name="tapToStart">Tap to start/stop</string>
+
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="title_activity_solver">SolverActivity</string>
+    <string name="title_activity_cubeDisplay">CubeDisplayActivity</string>
+    <string name="translate_button_text">Translate</string>
+    <string name="ok">OK</string>
+
+    <string name="guide_text">In order to talk about how to solve the cube, we need to have a way to easily describe what moves to do. The notation here is pretty standard, and just about any cube website you see that talks about moves will always use this same notation. You can see all of these moves demonstrated at the bottom of the page.\n
+
+Faces\n
+
+
+There are 6 faces: right (R), left (L), up (U), down (D), front (F), and back (B). Exactly which colors are on each face will depend on how you hold the cube, but it\'s usually most convenient to talk about these relative moves instead of the face colors. Each face can be rotated in two different directions. Clockwise or counter-clockwise means that direction as seen when you\'re looking straight at that face. Another way to figure it out is to use a right hand rule. Point your right thumb out away from the face in question, and curl your fingers. The direction of their curl is always counter-clockwise.\n
+
+Fundamental Moves
+
+
+The most fundamental moves are 90-degree clockwise turns of the face described by the letters above. I will also always bold moves here so that they stand out from normal text. To be completely clear, the 6 fundamental moves are the following:\n
+
+    R means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+
+
+
+Modifiers\n
+
+
+Modifiers can be attached to the end of these moves to change how they turn. The examples below all use R as the base move, but they can be used with any face.\n
+
+    R\' (spoken "R prime") means to turn the right face 90-degrees counter-clockwise, i.e. in the opposite direction as above.\n
+    R2 (spoken "R two") means to turn the right face 180-degrees.\n
+
+
+
+Two-Layer Moves\n
+
+
+Lower case letters (r, l, u, d, f, and b) mean to rotate both the corresponding face and the central layer next to it. For example, r means to rotate both the R face and the slice between R and L together in the same direction as a normal R move. The \' and 2 modifiers can be applied to these as well.\n
+
+Note that although r and L produce the same change in the cube, they are not quite the same. The difference is that they leave the cube oriented differently in your hands. L keeps the same center color on the F face, for example, but r moves that color to the U face. Thus r is really equivalent not to L, but to Lx, where x means...\n
+
+Rotations\n
+
+
+These moves mean to rotate the entire cube in your hands without turning any faces. The \' and 2 modifiers can be applied to these and reverse the direction of the rotation or double it, respectively.\n
+
+    x means to rotate the entire cube about the axis that connects R and L, rotating 90-degrees clockwise in the direction of an R move.\n
+    y means to rotate the entire cube about the axis that connects U and D, rotating 90-degrees clockwise in the direction of a U move.\n
+    z means to rotate the entire cube about the axis that connects F and B, rotating 90-degrees clockwise in the direction of an F move.\n </string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_guide">GuideActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_statistics">StatisticsActivity</string>
+    <string name="title_activity_type_guide">TypeGuideActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="skip_inspection_pref_desc">Skip the inspection period on the timer</string>
+    <string name="skip_inspection_pref">Skip Inspection</string>
+    <string name="timer_pref_category">Timer</string>
+    <string name="hide_translate_pref">Hide Translate Button</string>
+    <string name="hide_translate_pref_desc">Hide the Translate button on the timer screen</string>
+    <string name="wipe_db_message">Are you sure you wish to clear your times? This action cannot be undone!</string>
+    <string name="wipe_db_pref">Clear Saved Times</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saved_times_category">Saved Times</string>
+    <string name="title_activity_type_selector">TypeSelectorActivity</string>
+</resources>

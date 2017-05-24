@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="puzzle_types">
+        <item>2x2</item>
+        <item>3x3</item>
+        <item>4x4</item>
+        <item>5x5</item>
+        <item>6x6</item>
+        <item>7x7</item>
+        <item>Pyraminx</item>
+        <item>Square-1</item>
+        <item>Megaminx</item>
+        <item>Skewb</item>
+    </string-array>
+    <string-array name="tool_options">
+        <item>Statistics</item>
+        <item>Notation Guide</item>
+        <item>Cube Type Guide</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="type_guides">
+        <item>2x2 means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+        </item>
+        <item>3x3 means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+        <item>4x4 means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+        <item>5x5 means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+        <item>6x6 means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+        <item>R means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+        <item>R means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+        <item>R means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+        <item>R means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+        <item>Skewb means turn the right face such that the side on top moves to the back.\n
+    L means turn the left face such that the side on top moves to the front.\n
+    U means turn the up face such that the side in front moves to the left.\n
+    D means turn the down face such that the side in front moves to the right.\n
+    F means turn the front face such that the side on top moves to the right.\n
+    B means turn the back face such that the side on top moves to the left.\n
+</item>
+    </string-array>
+</resources>

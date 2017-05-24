@@ -1,0 +1,36 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="prefs">
+
+    <PreferenceCategory
+        android:title="@string/timer_pref_category">
+
+        <CheckBoxPreference
+            android:key="skipInspection"
+            android:title="@string/skip_inspection_pref"
+            android:summary="@string/skip_inspection_pref_desc"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="hideTranslate"
+            android:title="@string/hide_translate_pref"
+            android:summary="@string/hide_translate_pref_desc"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/saved_times_category">
+
+        <edu.vcu.quickgen.dialogs.DialogExPreference
+            android:key="wipeDataBase"
+            android:title="@string/wipe_db_pref"
+            android:dialogMessage="@string/wipe_db_message"
+            android:positiveButtonText="@string/yes"
+            android:negativeButtonText="@string/no"
+            />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
